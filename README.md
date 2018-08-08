@@ -3,15 +3,17 @@ A super fun(ctional) programming workshop by [@AnjanaVakil](https://twitter.com/
 
 ## Why am I here?
 
-In recent years you may have found yourself hearing more and more about this trendy topic of “functional programming", from a bunch of excited coders enthusiastically gushing about how it helps them write elegant, modular code that's easier to test, debug, and reason about. If you're like me, you may have started wondering:
+You may have found yourself hearing more and more about this trendy topic of “functional programming", from a bunch of excited coders enthusiastically gushing about how it helps them write elegant, modular code that's easier to test, debug, and reason about. If you're like me, you may have started wondering:
 
 - What is functional programming anyway, and why are people so excited about it?
 - What does functional code look like? How is it different from imperative or OO code?
 - What tools do I need to write functional programs? Do I have to learn Haskell? (spoiler alert: no!)
 
-If you too have been asking yourself questions like these, please join me in this friendly, practical exploration of functional programming fundamentals.
+If you too have been asking yourself questions like these, you're in the right place! If you're a functional programming pro or have zero interest in learning a new paradigm, then this probably isn't the workshop for you.
 
 ## What will we learn in this workshop?
+
+This will be a friendly, practical exploration of functional programming fundamentals.
 
 We'll learn how to follow the basic principles of the functional programming paradigm, such as:
 - construct programs from pure, “input in-output out” functions through which data flows
@@ -19,11 +21,10 @@ We'll learn how to follow the basic principles of the functional programming par
 - avoid mutation (changing things in-place), and use immutable data structures for efficiency
 
 
-## Installation
+## How do I use this repository?
 
-The examples in this repository are written in Node.js, and instructions will assume that you're working in Node.
+The examples in this repository are written in Node.js, and exercise instructions will assume that you're working in Node.
 
-However, if you prefer to use client-side JavaScript, that's also fine: you can follow along with the exercises by copy-pasting the code samples into your browser's web console. For the closest similarity to Node.js, you may want to use Chrome.
 
 - [ ] Install Node (version 6 or 8 recommended), if you don't already have it. I recommend installing via NVM (Node Version Manager). Installing Node also installs npm.
 - [ ] Clone the workshop repository: `git clone https://github.com/vakila/functional-workshop.git`
@@ -34,7 +35,24 @@ However, if you prefer to use client-side JavaScript, that's also fine: you can 
   $ npm install
   ```
 
+## Do I have to use Node?
 
+Not necessarily! If you prefer to use client-side JavaScript, that's also fine: you can follow along with the exercises by copy-pasting the code samples into your browser's web console. For the closest similarity to Node.js, you may want to use Chrome.
+
+## What should I do if I get confused?
+
+If you are struggling to wrap your head around a functional concept, that means you're completely normal and doing things right! But to keep things from getting too frustrating:
+
+- Ask questions at any time - there are no dumb questions!
+- Read up on the topic with the resources listed below. You might find an explanation or example that makes it click for you.
+- Ask the facilitator for additional exercises you can do to practice working with the concept
+
+### What should I do if I get bored?
+
+If the workshop is moving too slowly for you or you're already familiar with some concept(s) we're working on, no worries! Take your learning into your own hands:
+
+- Work on solving small programming problems in a functional style. Find a problem from [Exercism](https://exercism.io/tracks/javascript/exercises), [Daily Programmer](https://www.reddit.com/r/dailyprogrammer/), or a similar site you like, and force yourself to solve it functionally.
+- Feel like reading rather than coding? Dive deeper into the topic(s) we're covering by checking out some of the resources listed below.
 
 
 
@@ -42,7 +60,7 @@ However, if you prefer to use client-side JavaScript, that's also fine: you can 
 
 
 **10:00-10:15** Intro & icebreakers
-**10:15-11:55** Functional Programming in a nutshell: `pure-functions`
+**10:15-10:55** Functional Programming in a nutshell: `pure-functions`
 
 #### Topics
   - Pure Functions vs. Side Effects
@@ -54,8 +72,8 @@ However, if you prefer to use client-side JavaScript, that's also fine: you can 
 - Find & fix the impurities
 - Write tests for both pure & impure versions
 
-**11:55-12:00** Quick break
-**12:00-13:00** Staying out of the loop: `no-loops`
+**11:55-11:00** Quick break
+**11:00-12:00** Staying out of the loop: `no-loops`
 
 #### Topics
 - Iteration vs. Recursion
@@ -70,11 +88,12 @@ However, if you prefer to use client-side JavaScript, that's also fine: you can 
 
 ### _And now, a word from our sponsors:_ Tail Call Optimization
 
-### 3. Functions all the way down
+**12:00-12:30** Coffee break
+**12:30-1:15** Functions all the way down
 #### Topics
   - Function composition
   - Data flow
-  - Currying & pipelining
+  - Pipelining & currying
 
 #### Exercises
 - Write a pipeline function
@@ -86,9 +105,24 @@ However, if you prefer to use client-side JavaScript, that's also fine: you can 
   }
   ```
 - Write a program that translates from snake_case to camelCase
-- Write a program that transliterates an English sentence into Cyrillic (simplified, letter for letter)
+- Extend your program to be able to translate to and from more cases: PascalCase, kebab-case, Train-Case, SCREAMING_SNAKE_CASE, SCREAMING-TRAIN-CASE - try to use pipelining to reuse as much code as possible!
 
-### 4. Flying first class
+
+**13:15-14:00** Immutable data and you
+#### Topics
+  - Time, state, and (in)sanity, revisited
+  - Copying vs. Mutating
+  - The pitfalls of immutability
+
+#### Exercises
+- Rewrite your recursive sum, product, and average functions from earlier with immutable data structures (your choice of library)
+- run both with large arrays, do you notice a difference?
+
+### _And now, a word from our sponsors:_ Persistent Data Structures
+
+**14:00-15:00** Lunch
+**15:00-16:00** Flying first class
+
 #### Topics
   - Functions as values
   - Closures
@@ -104,19 +138,7 @@ However, if you prefer to use client-side JavaScript, that's also fine: you can 
 
 ### _And now, a word from our sponsors:_ The Lambda Calculus
 
-### 5. Immutable data and you
-#### Topics
-  - Time, state, and (in)sanity, revisited
-  - Copying vs. Mutating
-  - The pitfalls of immutability
-
-#### Exercises
-- Rewrite your recursive sum, product, and average functions from earlier with immutable data structures (your choice of library)
-- run both with large arrays, do you notice a difference?
-
-### _And now, a word from our sponsors:_ Persistent Data Structures
-
-### 6. Putting it all together
+**16:00-16:30** Putting it all together
 #### Topics
 - Review: Thinking functionally
 - When is FP the right choice?
@@ -130,9 +152,19 @@ However, if you prefer to use client-side JavaScript, that's also fine: you can 
 
 ## References & Further Reading
 
-## Libraries & Languages
+## Libraries & Languages to try
 
-### JavaScript Libraries
+### Functional JavaScript Libraries
 
 - [FP utilities] [Ramda](https://ramdajs.com/) (also available in [Українська (Ukrainian)](https://github.com/ivanzusko/ramda)!)
 - [FP utilities] [Lodash](https://lodash.com/)
+- [Persistent Data Structures] Seamless-Immutable
+- [Persistent Data Structures] Immutable.js
+- [FP utilities, Persistent Data Structures] Mori
+
+### Functional Languages
+
+- [frontend] Elm
+- [frontend] ClojureScript
+- [backend] Clojure
+- [backend] Elixir
