@@ -1,34 +1,32 @@
 'use strict';
 
 
-//
-// const imperativeSum = (numArray) => {
-//   let total = 0;
-//   for (let value of numArray) {
-//     total += value;
-//   }
-//   return total;
-// };
-//
-//
-// console.log(imperativeSum([1,2,3,4,5]));
-// console.log(imperativeSum([]));
-//
-//
-//
-// const imperativeMean = (numArray) => {
-//   let nValues = 0;
-//   let total = 0;
-//   for (let value of numArray) {
-//     total += value;
-//     nValues++;
-//   }
-//   return total/nValues;
-// };
-//
-// console.log(imperativeMean([1,2,3,4,5]));
-// console.log(imperativeMean([1,1.5,1.3,0.4]));
-// console.log(imperativeMean([]));
+
+const iterativeSum = (numArray) => {
+  let total = 0;
+  for (let value of numArray) {
+    total += value;
+  }
+  return total;
+};
+
+
+console.log(iterativeSum([1,2,3,4,5]));
+console.log(iterativeSum([]));
+
+
+
+const iterativeMean = (numArray) => {
+  let total = 0;
+  for (let value of numArray) {
+    total += value;
+  }
+  return total/array.length;
+};
+
+console.log(iterativeMean([1,2,3,4,5]));
+console.log(iterativeMean([1,1.5,1.3,0.4]));
+console.log(iterativeMean([]));
 
 
 
@@ -53,3 +51,10 @@ const recursiveMean = (numArray) => {
 
 console.log(recursiveMean([1,2,3,4,5]));
 console.log(recursiveMean([]));
+
+if (require.main === module) {
+  // Warning, non-functional code ahead!
+
+  const ints = [0, 1, 2, 3, 4, 5];
+  const floats = []
+}

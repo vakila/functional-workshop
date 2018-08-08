@@ -1,0 +1,26 @@
+{
+  "name": "functional-workshop",
+  "version": "1.0.0",
+  "description": "A super fun(ctional) programming workshop ",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape */*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vakila/functional-workshop.git"
+  },
+  "keywords": [
+    "functional programming",
+    "javascript"
+  ],
+  "author": "Anjana Vakil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vakila/functional-workshop/issues"
+  },
+  "homepage": "https://github.com/vakila/functional-workshop#readme",
+  "dependencies": {
+    "tape": "^4.9.1"
+  }
+}

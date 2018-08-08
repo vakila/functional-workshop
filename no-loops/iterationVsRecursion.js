@@ -13,17 +13,17 @@ const imperativeFactorial = (n) => {
 console.log(imperativeFactorial(4));
 console.log(imperativeFactorial(20));
 console.log(imperativeFactorial(15717));
-
-
-const recursiveFactorial = (n) => {
-  if (n === 0) return 1;
-  return n * recursiveFactorial(n-1);
-};
-
-console.log(recursiveFactorial(4));
-console.log(recursiveFactorial(20));
-console.log(recursiveFactorial(15717));
-
+// 
+//
+// const recursiveFactorial = (n) => {
+//   if (n === 0) return 1;
+//   return n * recursiveFactorial(n-1);
+// };
+//
+// console.log(recursiveFactorial(4));
+// console.log(recursiveFactorial(20));
+// console.log(recursiveFactorial(15717));
+//
 
 
 const tailRecursiveFactorial = (n) => {

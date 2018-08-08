@@ -18,10 +18,31 @@ We'll learn how to follow the basic principles of the functional programming par
 - use higher-order functions like map & filter instead of iterative loops, and closures instead of objects & classes
 - avoid mutation (changing things in-place), and use immutable data structures for efficiency
 
-## Outline
 
-### 0. Intro & icebreakers
-### 1. Functional Programming in a nutshell
+## Installation
+
+The examples in this repository are written in Node.js, and instructions will assume that you're working in Node.
+
+However, if you prefer to use client-side JavaScript, that's also fine: you can follow along with the exercises by copy-pasting the code samples into your browser's web console. For the closest similarity to Node.js, you may want to use Chrome.
+
+- [ ] Install Node (version 6 or 8 recommended), if you don't already have it. I recommend installing via NVM (Node Version Manager). Installing Node also installs npm.
+- [ ] Clone the workshop repository: `git clone https://github.com/vakila/functional-workshop.git`
+  - If you don't use GitHub, no problem: download a zip file of the repository instead, and unzip it.
+- [ ] Change into the repository directory and install the project dependencies:
+  ```
+  $ cd functional-workshop
+  $ npm install
+  ```
+
+
+
+
+
+## Outline & Schedule
+
+
+**10:00-10:15** Intro & icebreakers
+**10:15-11:55** Functional Programming in a nutshell: `pure-functions`
 
 #### Topics
   - Pure Functions vs. Side Effects
@@ -33,7 +54,9 @@ We'll learn how to follow the basic principles of the functional programming par
 - Find & fix the impurities
 - Write tests for both pure & impure versions
 
-### 2. Staying out of the loop
+**11:55-12:00** Quick break
+**12:00-13:00** Staying out of the loop: `no-loops`
+
 #### Topics
 - Iteration vs. Recursion
 - Recursive function basics
@@ -62,7 +85,7 @@ We'll learn how to follow the basic principles of the functional programming par
     else { return (x) => pipeline(array.slice(1))(array[0](x)); }
   }
   ```
-- Write a program that translates an English sentence to pig latin
+- Write a program that translates from snake_case to camelCase
 - Write a program that transliterates an English sentence into Cyrillic (simplified, letter for letter)
 
 ### 4. Flying first class
