@@ -96,3 +96,18 @@ function appendQueryParam(url, key, value) {
   }
   return '' + url + punctuation + query;
 }
+
+
+
+////////////////
+//// Part 5 ////
+////////////////
+
+
+const sum = (numArray) => {
+  let total = 0;
+  for (let value of numArray) {
+    total += value;
+  }
+  return total;
+};

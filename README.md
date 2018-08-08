@@ -41,9 +41,9 @@ We'll learn how to follow the basic principles of the functional programming par
 - The problem with the problem with the problem with recursion
 
 #### Exercises
-- Recursive sum, product, average of an array
+- Recursive sum & average of an array
 - Implement filter, map, and reduce
-- Reimplement sum, product, & average with reduce
+- Reimplement sum & average with reduce
 
 ### _And now, a word from our sponsors:_ Tail Call Optimization
 
@@ -101,4 +101,15 @@ We'll learn how to follow the basic principles of the functional programming par
 
 #### Exercises
 - Functional Katas
-- FP Jeopardy
+- FP Pub Quiz
+
+
+
+## References & Further Reading
+
+## Libraries & Languages
+
+### JavaScript Libraries
+
+- [FP utilities] [Ramda](https://ramdajs.com/) (also available in [Українська (Ukrainian)](https://github.com/ivanzusko/ramda)!)
+- [FP utilities] [Lodash](https://lodash.com/)
