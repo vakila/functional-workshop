@@ -73,7 +73,7 @@ If the workshop is moving too slowly for you or you're already familiar with som
 - Write tests for both pure & impure versions
 
 **11:55-11:00** Quick break
-**11:00-12:00** Staying out of the loop: `no-loops`
+**11:00-12:00** Staying out of the loop: `recursion`
 
 #### Topics
 - Iteration vs. Recursion
@@ -89,11 +89,11 @@ If the workshop is moving too slowly for you or you're already familiar with som
 ### _And now, a word from our sponsors:_ Tail Call Optimization
 
 **12:00-12:30** Coffee break
-**12:30-1:15** Functions all the way down
+**12:30-1:00** Functions all the way down: `composition`
 #### Topics
   - Function composition
   - Data flow
-  - Pipelining & currying
+  - Pipelining
 
 #### Exercises
 - Write a pipeline function
@@ -108,24 +108,12 @@ If the workshop is moving too slowly for you or you're already familiar with som
 - Extend your program to be able to translate to and from more cases: PascalCase, kebab-case, Train-Case, SCREAMING_SNAKE_CASE, SCREAMING-TRAIN-CASE - try to use pipelining to reuse as much code as possible!
 
 
-**13:15-14:00** Immutable data and you
-#### Topics
-  - Time, state, and (in)sanity, revisited
-  - Copying vs. Mutating
-  - The pitfalls of immutability
-
-#### Exercises
-- Rewrite your recursive sum, product, and average functions from earlier with immutable data structures (your choice of library)
-- run both with large arrays, do you notice a difference?
-
-### _And now, a word from our sponsors:_ Persistent Data Structures
-
-**14:00-15:00** Lunch
-**15:00-16:00** Flying first class
+**13:00-14:00** Flying first class: `first-class-functions`
 
 #### Topics
   - Functions as values
   - Closures
+  - Currying
   - FP & OOP: BFFs
 
 #### Exercises
@@ -137,6 +125,20 @@ If the workshop is moving too slowly for you or you're already familiar with som
   - person has name, affiliation, title, country
 
 ### _And now, a word from our sponsors:_ The Lambda Calculus
+
+**14:00-15:00** Lunch
+**15:00-15:30** Demo your FOOP program
+**15:30-16:00** Immutable data and you
+#### Topics
+  - Time, state, and (in)sanity, revisited
+  - Copying vs. Mutating
+  - The pitfalls of immutability
+
+#### Exercises
+- Rewrite your recursive sum, product, and average functions from earlier with immutable data structures (your choice of library)
+- run both with large arrays, do you notice a difference?
+
+### _And now, a word from our sponsors:_ Persistent Data Structures
 
 **16:00-16:30** Putting it all together
 #### Topics
