@@ -17,4 +17,4 @@ const snakeToCamel = pipeline(//TODO desnake, camelize, concatenate);
 const snakeToTrain = pipeline(//TODO desnake, capitalizeAll, hyphenate);
 
 
-module.exports = { snakeToCamel, snakeToTrain };
+module.exports = { snakeToCamel, snakeToTrain };s
