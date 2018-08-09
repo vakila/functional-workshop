@@ -58,9 +58,13 @@ const xorTruthTable = () => {
 // function examples in this section taken from
 // https://github.com/mapbox/mapbox-sdk-js/blob/master/lib/helpers/url-utils.js
 
+function encodeArray(arrayValue) {
+  return arrayValue.map(encodeURIComponent).join(',');
+}
+
 function encodeValue(value) {
   if (Array.isArray(value)) {
-    return arrayValue.map(encodeURIComponent).join(',');
+    return encodeArray(value);
   }
   return encodeURIComponent(String(value));
 }
