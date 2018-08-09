@@ -4,6 +4,9 @@
 // HELPER FUNCTIONS to get used to a more functional style
 // Use these (e.g. count(array) instead of array.length, etc.)
 
+// NOTE: The functions in this module are for educational purposes, not high-performance production use!
+
+
 // get the number of elements in an array
 const count = (array) => array.length;
 

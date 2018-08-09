@@ -1,5 +1,7 @@
 'use strict';
 
+// NOTE: The functions in this module are for educational purposes, not high-performance production use!
+
 const { count, head, tail } = require('../arrayHelpers.js');
 
 const filter = (predicateFn, array) => {
@@ -23,14 +25,9 @@ const map = (mappingFn, array) => {
 
 const reduce = (reducerFn, initialValue, array) => {
   // TODO
-  // if (initialValue == undefined) {
-  //   if (count(array) === 0) throw TypeError('Cannot reduce an empty array without an initial accumulator value');
-  //   if (count(array) === 1) return array[0];
-  //   return reduce(tail(array), reducerFn, head(array));
-  // } else {
-    if (count(array) === 0) return initialValue;
-    return reduce(reducerFn, reducerFn(initialValue, head(array)), tail(array));
-  // }
+  // NOTE: many reduce implementations allow the user to omit
+  if (count(array) === 0) return initialValue;
+  return reduce(reducerFn, reducerFn(initialValue, head(array)), tail(array));
 };
 
 

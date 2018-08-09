@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/vakila/functional-workshop#readme",
   "dependencies": {
+    "immutable": "^3.8.2",
+    "mori": "^0.3.2",
+    "seamless-immutable": "^7.1.3",
     "tape": "^4.9.1"
   }
 }

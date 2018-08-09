@@ -28,6 +28,7 @@ The examples in this repository are written in Node.js, and exercise instruction
 
 - [ ] Install Node (version 6 or 8 recommended), if you don't already have it. I recommend installing via NVM (Node Version Manager). Installing Node also installs npm.
 - [ ] Clone the workshop repository: `git clone https://github.com/vakila/functional-workshop.git`
+  - Feel free to fork the repo first, and track your work in your own fork!
   - If you don't use GitHub, no problem: download a zip file of the repository instead, and unzip it.
 - [ ] Change into the repository directory and install the project dependencies:
   ```
@@ -60,7 +61,7 @@ If the workshop is moving too slowly for you or you're already familiar with som
 
 
 **10:00-10:15** Intro & icebreakers
-**10:15-10:55** Functional Programming in a nutshell: `pure-functions`
+**10:15-10:45** Functional Programming in a nutshell: `pure-functions`
 
 #### Topics
   - Pure Functions vs. Side Effects
@@ -72,8 +73,7 @@ If the workshop is moving too slowly for you or you're already familiar with som
 - Find & fix the impurities
 - Write tests for both pure & impure versions
 
-**11:55-11:00** Quick break
-**11:00-12:00** Staying out of the loop: `recursion`
+**10:45-11:30** Staying out of the loop: `recursion`
 
 #### Topics
 - Iteration vs. Recursion
@@ -88,24 +88,26 @@ If the workshop is moving too slowly for you or you're already familiar with som
 
 ### _And now, a word from our sponsors:_ Tail Call Optimization
 
+
+**11:30-12:00**  Immutable data and you
+
+#### Topics
+  - Time, state, and (in)sanity, revisited
+  - Copying vs. Mutating
+  - The pitfalls of immutability
+
+#### Exercises
+- Rewrite your recursive sum, product, and average functions from earlier with immutable data structures (your choice of library)
+- run both with large arrays, do you notice a difference?
+
+### _And now, a word from our sponsors:_ Persistent Data Structures
+
 **12:00-12:30** Coffee break
 **12:30-1:00** Functions all the way down: `composition`
 #### Topics
   - Function composition
   - Data flow
   - Pipelining
-
-#### Exercises
-- Write a pipeline function
-  ```
-  const pipeline = (array) => {
-    if (array.length === 0) { return (x) => x; }
-    else if (array.length === 1) { return (x) => array[0](x); }
-    else { return (x) => pipeline(array.slice(1))(array[0](x)); }
-  }
-  ```
-- Write a program that translates from snake_case to camelCase
-- Extend your program to be able to translate to and from more cases: PascalCase, kebab-case, Train-Case, SCREAMING_SNAKE_CASE, SCREAMING-TRAIN-CASE - try to use pipelining to reuse as much code as possible!
 
 
 **13:00-14:00** Flying first class: `first-class-functions`
@@ -128,17 +130,7 @@ If the workshop is moving too slowly for you or you're already familiar with som
 
 **14:00-15:00** Lunch
 **15:00-15:30** Demo your FOOP program
-**15:30-16:00** Immutable data and you
-#### Topics
-  - Time, state, and (in)sanity, revisited
-  - Copying vs. Mutating
-  - The pitfalls of immutability
-
-#### Exercises
-- Rewrite your recursive sum, product, and average functions from earlier with immutable data structures (your choice of library)
-- run both with large arrays, do you notice a difference?
-
-### _And now, a word from our sponsors:_ Persistent Data Structures
+**15:30-16:00**
 
 **16:00-16:30** Putting it all together
 #### Topics

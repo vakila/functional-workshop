@@ -2,8 +2,6 @@
 
 In functional programming we construct programs entirely out of modular pure functions, using function composition to "combine" functions' effects to create a pipeline through which our program's data can flow through.
 
-To make functions more modular and easier to compose, we can use techniques like currying, which lets us turn a function with any number of arguments into a composition of single-argument functions.
-
 ## Exercises
 
 - Pipelining (`pipeline.js`)
