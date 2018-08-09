@@ -1,6 +1,6 @@
 # First Steps into Functional Programming
 
-A super fun(ctional) programming workshop by [@AnjanaVakil](https://twitter.com/AnjanaVakil)
+A super fun(ctional) programming workshop by [@AnjanaVakil](https://twitter.com/AnjanaVakil) ([slides](https://speakerdeck.com/vakila/first-steps-into-functional-programming))
 
 ## Why am I here?
 
