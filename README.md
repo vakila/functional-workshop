@@ -1,4 +1,5 @@
 # First Steps into Functional Programming
+
 A super fun(ctional) programming workshop by [@AnjanaVakil](https://twitter.com/AnjanaVakil)
 
 ## Why am I here?

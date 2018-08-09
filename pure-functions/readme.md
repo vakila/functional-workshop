@@ -6,10 +6,13 @@ A pure function has two characteristics:
 
 ## Exercises
 
-- [ ] With your partner/group, read through the functions in `pureOrNot.js` and classify each as pure or impure.
+### Pure or Not?
+  - [ ] With your partner/group, read through the functions in `pureOrNot.js` and classify each as pure or impure
+  - [ ] Discuss with the larger group. Were there any surprises?
 
-- [ ] From impure to pure
+### From impure to pure (`impureToPure.js`)
   - [ ] Spend ~5 minutes looking over code from a project you've been working on recently, and identify an impure function
   - [ ] Show the function to your partner/group, and walk them through what it does
   - [ ] Swap functions with your partner/group, and rewrite their impure function to make it pure
   - [ ] Review the pure version with your partner/group, walking them through the changes you made to their function, and giving them a code review of the changes they made to yours
+  - [ ] [challenge] Write test(s) for the pure version, and write analogous test(s) for the impure version (or copy tests you already have). Do you notice any differences?

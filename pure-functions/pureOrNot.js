@@ -1,14 +1,8 @@
 'use strict';
 
-///////////////////////////////////////
-// Are the following functions pure? //
-///////////////////////////////////////
-
-
 
 ////////////////
-//// Part 1 ////
-////////////////
+
 
 const getDate = () => new Date().toDateString();
 
@@ -17,8 +11,7 @@ const getWorkshopDate = () => new Date(2018, 7, 9).toDateString();
 
 
 ////////////////
-//// Part 2 ////
-////////////////
+
 
 
 const jsonToObj = (filename) => {
@@ -33,8 +26,6 @@ const objToJson = (object) => {
 
 
 
-////////////////
-//// Part 3 ////
 ////////////////
 
 
@@ -61,8 +52,7 @@ const xorTruthTable = () => {
 
 
 
-////////////////
-//// Part 4 ////
+
 ////////////////
 
 // function examples in this section taken from
@@ -98,9 +88,6 @@ function appendQueryParam(url, key, value) {
 }
 
 
-
-////////////////
-//// Part 5 ////
 ////////////////
 
 
