@@ -1,4 +1,4 @@
-# Pure functions
+# FP in a nutshell: Pure functions
 
 A pure function has two characteristics:
 - It has no effect on the program or the world besides outputting its return value (no side effects)

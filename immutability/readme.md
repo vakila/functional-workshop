@@ -1,4 +1,4 @@
-# Immutability
+# Immutability and you
 
 Functional programming goes hand in hand with immutability, because if you work only with immutable data there's less chance of accidental side effects!
 

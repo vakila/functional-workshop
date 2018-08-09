@@ -75,7 +75,7 @@ If the workshop is moving too slowly for you or you're already familiar with som
 
   _And now, a word from our sponsors:_ Tail Call Optimization
 
-**11:15-11:45** [Higher-order functions](higher-order)
+**11:15-11:45** [Flying first-class with higher-order functions](higher-order)
   - Functions as values
   - Filter, Map, Reduce
 
@@ -83,7 +83,7 @@ If the workshop is moving too slowly for you or you're already familiar with som
 
 **12:00-12:30** Coffee break
 
-**12:30-13:30** [Closure](closure)
+**12:30-13:30** [Getting Closure](closure)
   - Closures
   - Currying
   - FP & OOP: BFFs
@@ -99,7 +99,7 @@ If the workshop is moving too slowly for you or you're already familiar with som
   - Data flow
   - Pipelining
 
-**15:30-16:00** [Immutable data and you](immutability)
+**15:30-16:00** [Immutability and you](immutability)
   - Time, state, and (in)sanity, revisited
   - Copying vs. Mutating
   - The pitfalls of immutability

@@ -1,4 +1,4 @@
-# Functions all the way down
+# It's functions all the way down: Composition
 
 In functional programming we construct programs entirely out of modular pure functions, using function composition to "combine" functions' effects to create a pipeline through which our program's data can flow through.
 

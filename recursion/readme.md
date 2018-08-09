@@ -1,4 +1,4 @@
-# Avoiding loops using recursion
+# Staying out of the loop with recursion
 
 In functional programming, we avoid mutable state, and therefore avoid iterative loops using `for` or `while`. As an alternative to iteration, we use _recursion_ to break down the problem into smaller ones.
 

@@ -1,4 +1,4 @@
-# Closure
+# Getting Closure
 
 When a function is defined within another function, the inner function can remember things about the outer function's scope at the time it (the inner function) was defined. This "remembering", aka closure, is useful for avoiding long function signatures in the stateless functional world where we need to pass in all relevant inputs as arguments.
 
