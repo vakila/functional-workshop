@@ -116,19 +116,57 @@ If the workshop is moving too slowly for you or you're already familiar with som
 
 ## References & Further Reading
 
+### FP Principles & Concepts
+- Mary Rose Cook, ["A Practical Introduction to Functional Programming"](https://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming)
+- [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/)
+- Anouk Ruhaak, Get started with Functional Programming, [otsconf 2015](https://www.youtube.com/watch?v=6f5dt923FmQ)
+- J. Kerr, “Functional Principles for OO Development”, [GOTO Chicago '14](youtu.be/GpXsQ-NIKXY)
+- B. Stokke, "The Miracle of Generators", [GOTO Chicago '16](youtu.be/6mCkLZ0cwAI)
+- [_Code Words_ by the Recurse Center](codewords.recurse.com)
+  - Mary Rose Cook, "An introduction to functional programming"
+  - Sal Becker, "This just isn't functional"
+  - Patrick Dubroy, "Immutability is not enough"
+- James Hague
+  - [Back to the Basics of Functional Programming](https://prog21.dadgum.com/18.html)
+  - [Purely Functional Retrogames](https://prog21.dadgum.com/23.html)
+
+### Closures & Currying
+- Scott Sauyet
+  - ["Favoring Curry"](https://fr.umio.us/favoring-curry/#header)
+  - other [blog posts](https://fr.umio.us/)
+- Hugh FD Jackson
+  - ["Why Curry Helps"](https://hughfdjackson.com/javascript/why-curry-helps/)
+  - ["Does Curry Help?"](https://hughfdjackson.com/javascript/does-curry-help/)
+- Todd Motto, [Everything you wanted to know about JavaScript scope](https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/#closures)
+
+### Immutable data structures
+- D. Nolen, “Immutability, interactivity & JS”, [FutureJS '14](youtu.be/mS264h8KGwk)
+- L. Byron, “Immutable Data & React”, [React.js Conf '15](youtu.be/I7IdS-PbEgI)
+- A. Vakil, "Immutable data structures for functional JS", [JSConf EU '17](youtu.be/Wo0qiGPSV-s)
+
+### Messaging & OOP
+- Alan Kay:
+  -  [The early history of Smalltalk](worrydream.com/EarlyHistoryOfSmalltalk)
+  -  [Comment on Moti Ben-Ari's “Objects never? Well, hardly ever!”](computinged.wordpress.com/2010/09/11/moti-asks-objects-never-well-hardly-ever/#div-comment-3766)
+  -  [E-mail to Squeak list on "messaging"](wiki.c2.com/?AlanKayOnMessaging)
+- William Cook:
+  -  [A Proposal for Simplified, Modern Definitions of "Object" and "Object Oriented"](wcook.blogspot.com/2012/07/proposal-for-simplified-modern.html)
+  -  [On Understanding Data Abstraction, Revisited](www.cs.utexas.edu/%7Ewcook/Drafts/2009/essay.pdf)
+- [Structure & Interpretation of Computer Programs](mitpress.mit.edu/sicp)
+
 ## Libraries & Languages to try
 
 ### Functional JavaScript Libraries
 
 - [FP utilities] [Ramda](https://ramdajs.com/) (also available in [Українська (Ukrainian)](https://github.com/ivanzusko/ramda)!)
 - [FP utilities] [Lodash](https://lodash.com/)
-- [Persistent Data Structures] Seamless-Immutable
-- [Persistent Data Structures] Immutable.js
-- [FP utilities, Persistent Data Structures] Mori
+- [Persistent Data Structures] [Immutable.js](https://facebook.github.io/immutable-js/)
+- [Persistent Data Structures] [Seamless-Immutable](https://github.com/rtfeldman/seamless-immutable)  
+- [FP utilities, Persistent Data Structures] [Mori](http://swannodette.github.io/mori/)
 
 ### Functional Languages
 
-- [frontend] Elm
-- [frontend] ClojureScript
-- [backend] Clojure
-- [backend] Elixir
+- [frontend] [Elm](http://elm-lang.org/)
+- [frontend] [ClojureScript](https://clojurescript.org/)
+- [backend] [Clojure](https://clojure.org/)
+- [backend] [Elixir](https://elixir-lang.org/)
