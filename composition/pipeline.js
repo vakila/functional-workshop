@@ -9,11 +9,11 @@ const pipeline = (...functions) => {
   if (count(functions) === 1) return (input) => head(functions)(input);
   return (input) => pipeline(...tail(functions))(head(functions)(input));
 };
-//
-// const pipeline = (...functions) => {
-//   // TODO
-//   return (input) => reduce((acc, fn) => fn(acc), input, functions);
-// };
+
+const reducePipeline = (...functions) => {
+  // TODO
+  return (input) => reduce((acc, fn) => fn(acc), input, functions);
+};
 
 
 module.exports = pipeline;

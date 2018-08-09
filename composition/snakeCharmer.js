@@ -13,8 +13,8 @@ const concatenate = (stringArray) => reduce((acc, str) => acc + str, '', stringA
 const hyphenate = (stringArray) => reduce((acc, str) => [acc, str].join('-'), head(stringArray), tail(stringArray));
 
 
-const snakeToCamel = pipeline(//TODO desnake, camelize, concatenate);
-const snakeToTrain = pipeline(//TODO desnake, capitalizeAll, hyphenate);
+const snakeToCamel = pipeline(desnake, camelize, concatenate); //TODO
+const snakeToTrain = pipeline(desnake, capitalizeAll, hyphenate); //TODO
 
 
 module.exports = { snakeToCamel, snakeToTrain };

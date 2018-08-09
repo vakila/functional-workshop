@@ -1,7 +1,7 @@
 'use strict';
 
 
-const curriedQuote = //TODO (name) => (year) => (text) => `"${text}"\n\t- ${name} (${year})\n\n`;
+const curriedQuote = (name) => (year) => (text) => `"${text}"\n\t- ${name} (${year})\n\n`; //TODO
 
 
 const quoteCrockford = curriedQuote('Doug Crockford');
