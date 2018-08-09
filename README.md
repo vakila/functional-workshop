@@ -63,19 +63,19 @@ If the workshop is moving too slowly for you or you're already familiar with som
 
 **10:00-10:15** Intro & icebreakers
 
-**10:15-10:45** Functional Programming in a nutshell: `pure-functions`
+**10:15-10:45** [Functional Programming in a nutshell](pure-functions)
   - Pure Functions vs. Side Effects
   - Time, state, and (in)sanity
   - Imperative vs. Declarative programming
 
-**10:45-11:15** Staying out of the loop: `recursion`
+**10:45-11:15** [Staying out of the loop with Recursion](recursion)
   - Iteration vs. Recursion
   - Recursive function basics
   - The problem with the problem with the problem with recursion
 
   _And now, a word from our sponsors:_ Tail Call Optimization
 
-**11:15-11:45** Higher-order functions: `higher-order`
+**11:15-11:45** [Higher-order functions](higher-order)
   - Functions as values
   - Filter, Map, Reduce
 
@@ -83,7 +83,7 @@ If the workshop is moving too slowly for you or you're already familiar with som
 
 **12:00-12:30** Coffee break
 
-**12:30-13:30** Closure: `closure`
+**12:30-13:30** [Closure](closure)
   - Closures
   - Currying
   - FP & OOP: BFFs
@@ -94,12 +94,12 @@ If the workshop is moving too slowly for you or you're already familiar with som
 
 **14:00-15:00** Lunch
 
-**15:00-15:30** It's functions all the way down: `composition`
+**15:00-15:30** [It's functions all the way down](composition)
   - Function composition
   - Data flow
   - Pipelining
 
-**15:30-16:00** Immutable data and you: `immutability`
+**15:30-16:00** [Immutable data and you](immutability)
   - Time, state, and (in)sanity, revisited
   - Copying vs. Mutating
   - The pitfalls of immutability
@@ -120,9 +120,9 @@ If the workshop is moving too slowly for you or you're already familiar with som
 - Mary Rose Cook, ["A Practical Introduction to Functional Programming"](https://maryrosecook.com/blog/post/a-practical-introduction-to-functional-programming)
 - [Professor Frisby's Mostly Adequate Guide to Functional Programming](https://mostly-adequate.gitbooks.io/mostly-adequate-guide/)
 - Anouk Ruhaak, Get started with Functional Programming, [otsconf 2015](https://www.youtube.com/watch?v=6f5dt923FmQ)
-- J. Kerr, “Functional Principles for OO Development”, [GOTO Chicago '14](youtu.be/GpXsQ-NIKXY)
-- B. Stokke, "The Miracle of Generators", [GOTO Chicago '16](youtu.be/6mCkLZ0cwAI)
-- [_Code Words_ by the Recurse Center](codewords.recurse.com)
+- J. Kerr, “Functional Principles for OO Development”, [GOTO Chicago '14](https://youtu.be/GpXsQ-NIKXY)
+- B. Stokke, "The Miracle of Generators", [GOTO Chicago '16](https://youtu.be/6mCkLZ0cwAI)
+- [_Code Words_ by the Recurse Center](https://codewords.recurse.com)
   - Mary Rose Cook, "An introduction to functional programming"
   - Sal Becker, "This just isn't functional"
   - Patrick Dubroy, "Immutability is not enough"
@@ -140,19 +140,19 @@ If the workshop is moving too slowly for you or you're already familiar with som
 - Todd Motto, [Everything you wanted to know about JavaScript scope](https://toddmotto.com/everything-you-wanted-to-know-about-javascript-scope/#closures)
 
 ### Immutable data structures
-- D. Nolen, “Immutability, interactivity & JS”, [FutureJS '14](youtu.be/mS264h8KGwk)
-- L. Byron, “Immutable Data & React”, [React.js Conf '15](youtu.be/I7IdS-PbEgI)
-- A. Vakil, "Immutable data structures for functional JS", [JSConf EU '17](youtu.be/Wo0qiGPSV-s)
+- D. Nolen, “Immutability, interactivity & JS”, [FutureJS '14](https://youtu.be/mS264h8KGwk)
+- L. Byron, “Immutable Data & React”, [React.js Conf '15](https://youtu.be/I7IdS-PbEgI)
+- A. Vakil, "Immutable data structures for functional JS", [JSConf EU '17](https://youtu.be/Wo0qiGPSV-s)
 
 ### Messaging & OOP
 - Alan Kay:
-  -  [The early history of Smalltalk](worrydream.com/EarlyHistoryOfSmalltalk)
-  -  [Comment on Moti Ben-Ari's “Objects never? Well, hardly ever!”](computinged.wordpress.com/2010/09/11/moti-asks-objects-never-well-hardly-ever/#div-comment-3766)
-  -  [E-mail to Squeak list on "messaging"](wiki.c2.com/?AlanKayOnMessaging)
+  -  [The early history of Smalltalk](http://worrydream.com/EarlyHistoryOfSmalltalk)
+  -  [Comment on Moti Ben-Ari's “Objects never? Well, hardly ever!”](http://computinged.wordpress.com/2010/09/11/moti-asks-objects-never-well-hardly-ever/#div-comment-3766)
+  -  [E-mail to Squeak list on "messaging"](http://wiki.c2.com/?AlanKayOnMessaging)
 - William Cook:
-  -  [A Proposal for Simplified, Modern Definitions of "Object" and "Object Oriented"](wcook.blogspot.com/2012/07/proposal-for-simplified-modern.html)
-  -  [On Understanding Data Abstraction, Revisited](www.cs.utexas.edu/%7Ewcook/Drafts/2009/essay.pdf)
-- [Structure & Interpretation of Computer Programs](mitpress.mit.edu/sicp)
+  -  [A Proposal for Simplified, Modern Definitions of "Object" and "Object Oriented"](http://wcook.blogspot.com/2012/07/proposal-for-simplified-modern.html)
+  -  [On Understanding Data Abstraction, Revisited](http://www.cs.utexas.edu/%7Ewcook/Drafts/2009/essay.pdf)
+- [Structure & Interpretation of Computer Programs](http://mitpress.mit.edu/sicp)
 
 ## Libraries & Languages to try
 
