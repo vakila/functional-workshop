@@ -23,10 +23,10 @@ We'll learn how to follow the basic principles of the functional programming par
 
 ## How do I use this repository?
 
-The examples in this repository are written in Node.js, and exercise instructions will assume that you're working in Node.
+The examples in this repository are written in [Node.js](https://nodejs.org), and exercise instructions will assume that you're working in Node.
 
 
-- [ ] Install Node (version 6 or 8 recommended), if you don't already have it. I recommend installing via NVM (Node Version Manager). Installing Node also installs npm.
+- [ ] Install Node (version 6 or 8 recommended), if you don't already have it - I recommend installing via [NVM](https://github.com/creationix/nvm) (Node Version Manager). Installing Node also installs the package manager [npm](https://www.npmjs.com/).
 - [ ] Clone the workshop repository: `git clone https://github.com/vakila/functional-workshop.git`
   - Feel free to fork the repo first, and track your work in your own fork!
   - If you don't use GitHub, no problem: download a zip file of the repository instead, and unzip it.
@@ -35,8 +35,9 @@ The examples in this repository are written in Node.js, and exercise instruction
   $ cd functional-workshop
   $ npm install
   ```
+- [ ] Follow along with the exercises in each section's `readme.md`, linked in the schedule below.
 
-## Do I have to use Node?
+### Do I have to use Node?
 
 Not necessarily! If you prefer to use client-side JavaScript, that's also fine: you can follow along with the exercises by copy-pasting the code samples into your browser's web console. For the closest similarity to Node.js, you may want to use Chrome.
 
@@ -59,89 +60,57 @@ If the workshop is moving too slowly for you or you're already familiar with som
 
 ## Outline & Schedule
 
-
 **10:00-10:15** Intro & icebreakers
-**10:15-10:45** Functional Programming in a nutshell: `pure-functions`
 
-#### Topics
+**10:15-10:45** Functional Programming in a nutshell: `pure-functions`
   - Pure Functions vs. Side Effects
   - Time, state, and (in)sanity
   - Imperative vs. Declarative programming
 
-#### Exercises
-- Pure or not? game
-- Find & fix the impurities
-- Write tests for both pure & impure versions
+**10:45-11:15** Staying out of the loop: `recursion`
+  - Iteration vs. Recursion
+  - Recursive function basics
+  - The problem with the problem with the problem with recursion
 
-**10:45-11:30** Staying out of the loop: `recursion`
+  _And now, a word from our sponsors:_ Tail Call Optimization
 
-#### Topics
-- Iteration vs. Recursion
-- Recursive function basics
-- Filter, Map, Reduce
-- The problem with the problem with the problem with recursion
+**11:15-11:45** Higher-order functions: `higher-order`
+  - Functions as values
+  - Filter, Map, Reduce
 
-#### Exercises
-- Recursive sum & average of an array
-- Implement filter, map, and reduce
-- Reimplement sum & average with reduce
-
-### _And now, a word from our sponsors:_ Tail Call Optimization
-
-
-**11:30-12:00**  Immutable data and you
-
-#### Topics
-  - Time, state, and (in)sanity, revisited
-  - Copying vs. Mutating
-  - The pitfalls of immutability
-
-#### Exercises
-- Rewrite your recursive sum, product, and average functions from earlier with immutable data structures (your choice of library)
-- run both with large arrays, do you notice a difference?
-
-### _And now, a word from our sponsors:_ Persistent Data Structures
+**11:45-12:00** Discussion & Questions so far
 
 **12:00-12:30** Coffee break
-**12:30-1:00** Functions all the way down: `composition`
-#### Topics
-  - Function composition
-  - Data flow
-  - Pipelining
 
-
-**13:00-14:00** Flying first class: `first-class-functions`
-
-#### Topics
-  - Functions as values
+**12:30-13:30** Closure: `closure`
   - Closures
   - Currying
   - FP & OOP: BFFs
 
-#### Exercises
-- Write a conference workshop manager in FOOP
-  - conference has name, date, location, workshops
-  - workshop has name, date, time, facilitator, students
-  - facilitator is a person
-  - student is a person
-  - person has name, affiliation, title, country
+**13:30-14:00** FOOP demo & discussion
 
-### _And now, a word from our sponsors:_ The Lambda Calculus
+  _And now, a word from our sponsors:_ The Lambda Calculus
 
 **14:00-15:00** Lunch
-**15:00-15:30** Demo your FOOP program
-**15:30-16:00**
 
-**16:00-16:30** Putting it all together
-#### Topics
-- Review: Thinking functionally
-- When is FP the right choice?
-- Libraries & languages to try
+**15:00-15:30** It's functions all the way down: `composition`
+  - Function composition
+  - Data flow
+  - Pipelining
 
-#### Exercises
-- Functional Katas
-- FP Pub Quiz
+**15:30-16:00** Immutable data and you: `immutability`
+  - Time, state, and (in)sanity, revisited
+  - Copying vs. Mutating
+  - The pitfalls of immutability
 
+  _And now, a word from our sponsors:_ Persistent Data Structures
+
+**16:00-16:30** Recap & takeaways (discussion)
+  - Review: Thinking functionally
+  - When is FP the right choice?
+  - Libraries & languages to try
+
+**16:30** End
 
 
 ## References & Further Reading

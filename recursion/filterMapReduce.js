@@ -25,7 +25,7 @@ const map = (mappingFn, array) => {
 
 const reduce = (reducerFn, initialValue, array) => {
   // TODO
-  // NOTE: many reduce implementations allow the user to omit
+  // NOTE: many reduce implementations treat the initialValue argument as optional - here we'll require it, for simplicity
   if (count(array) === 0) return initialValue;
   return reduce(reducerFn, reducerFn(initialValue, head(array)), tail(array));
 };
