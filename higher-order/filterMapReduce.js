@@ -6,19 +6,14 @@ const { count, head, tail } = require('../arrayHelpers.js');
 
 const filter = (predicateFn, array) => {
   // TODO
-  if (count(array) === 0) return [];
-  const aHead = head(array);
-  const aTail = tail(array);
-  const filtered = predicateFn(aHead) ? [aHead] : [];
-  return filtered.concat(filter(predicateFn, aTail));
+
 }
 
 
 
 const map = (mappingFn, array) => {
   // TODO
-  if (count(array) === 0) return [];
-  return [mappingFn(head(array))].concat(map(mappingFn, tail(array)));
+
 };
 
 
@@ -26,8 +21,7 @@ const map = (mappingFn, array) => {
 const reduce = (reducerFn, initialValue, array) => {
   // TODO
   // NOTE: many reduce implementations treat the initialValue argument as optional - here we'll require it, for simplicity
-  if (count(array) === 0) return initialValue;
-  return reduce(reducerFn, reducerFn(initialValue, head(array)), tail(array));
+  
 };
 
 
