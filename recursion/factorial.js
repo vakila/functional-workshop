@@ -26,4 +26,4 @@ const tailRecursiveFactorial = (n) => {
     return fact(n-1, acc*n);
   };
   return fact(n, 1);
-}
+};

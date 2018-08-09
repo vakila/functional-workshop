@@ -24,7 +24,7 @@ const grumpyQuotes = [
 ];
 
 if (require.main === module) {
-  const { map } = require('../recursion/filterMapReduce.js');
+  const { map } = require('../higher-order/filterMapReduce.js');
 
   // Warning: non-functional console.logging ahead!
   map(grumpyQuotes, console.log);

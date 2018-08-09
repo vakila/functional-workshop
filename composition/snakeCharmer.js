@@ -2,7 +2,7 @@
 
 const pipeline = require('./pipeline.js');
 const { count, head, tail } = require('../arrayHelpers.js');
-const { map, reduce, filter } = require('../recursion/filterMapReduce.js');
+const { map, reduce, filter } = require('../higher-order/filterMapReduce.js');
 
 // TODO Define reusable, single-argument functions for pipelining here
 const desnake = (snake_case_string) => snake_case_string.split('_');
@@ -17,4 +17,4 @@ const snakeToCamel = pipeline(//TODO desnake, camelize, concatenate);
 const snakeToTrain = pipeline(//TODO desnake, capitalizeAll, hyphenate);
 
 
-module.exports = { snakeToCamel, snakeToTrain };s
+module.exports = { snakeToCamel, snakeToTrain };
