@@ -61,34 +61,33 @@ If the workshop is moving too slowly for you or you're already familiar with som
 
 ## Outline & Schedule
 
-**10:00-10:15** Intro & icebreakers
+**10:00-10:30** Intro & icebreakers
 
-**10:15-10:45** [Functional Programming in a nutshell](pure-functions)
+**10:30-11:30** [Functional Programming in a nutshell](pure-functions)
   - Pure Functions vs. Side Effects
   - Time, state, and (in)sanity
   - Imperative vs. Declarative programming
 
-**10:45-11:15** [Staying out of the loop with Recursion](recursion)
+**11:30-12:00** [Staying out of the loop with Recursion](recursion)
   - Iteration vs. Recursion
   - Recursive function basics
   - The problem with the problem with the problem with recursion
 
   _And now, a word from our sponsors:_ Tail Call Optimization
 
-**11:15-11:45** [Flying first-class with higher-order functions](higher-order)
+**12:00-12:30** Coffee break
+
+**12:30-13:00** [Flying first-class with higher-order functions](higher-order)
   - Functions as values
   - Filter, Map, Reduce
 
-**11:45-12:00** Discussion & Questions so far
 
-**12:00-12:30** Coffee break
-
-**12:30-13:30** [Getting Closure](closure)
+**13:00-13:45** [Getting Closure](closure)
   - Closures
   - Currying
   - FP & OOP: BFFs
 
-**13:30-14:00** FOOP demo & discussion
+**13:45-14:00** FOOP demo & discussion
 
   _And now, a word from our sponsors:_ The Lambda Calculus
 
