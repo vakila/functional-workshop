@@ -133,7 +133,7 @@ If the workshop is moving too slowly for you or you're already familiar with som
 ### Closures & Currying
 - Scott Sauyet
   - ["Favoring Curry"](https://fr.umio.us/favoring-curry/#header)
-  - other [blog posts](https://fr.umio.us/)
+  - ["Why Ramda"](https://fr.umio.us/why-ramda/#header)
 - Hugh FD Jackson
   - ["Why Curry Helps"](https://hughfdjackson.com/javascript/why-curry-helps/)
   - ["Does Curry Help?"](https://hughfdjackson.com/javascript/does-curry-help/)
