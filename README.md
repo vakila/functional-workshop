@@ -61,56 +61,56 @@ If the workshop is moving too slowly for you or you're already familiar with som
 
 ## Outline & Schedule
 
-**10:00-10:30** Intro & icebreakers
+**9:00-9:30** Intro & icebreakers
 
-**10:30-11:30** [Functional Programming in a nutshell](pure-functions)
+**9:30-10:30** [Functional Programming in a nutshell](pure-functions)
   - Pure Functions vs. Side Effects
   - Time, state, and (in)sanity
   - Imperative vs. Declarative programming
 
-**11:30-12:00** [Staying out of the loop with Recursion](recursion)
+**10:30-11:00** [Staying out of the loop with Recursion](recursion)
   - Iteration vs. Recursion
   - Recursive function basics
   - The problem with the problem with the problem with recursion
 
   _And now, a word from our sponsors:_ Tail Call Optimization
 
-**12:00-12:30** Coffee break
+**11:00-11:30** Coffee break
 
-**12:30-13:00** [Flying first-class with higher-order functions](higher-order)
+**11:30-12:00** [Flying first-class with higher-order functions](higher-order)
   - Functions as values
   - Filter, Map, Reduce
 
 
-**13:00-13:45** [Getting Closure](closure)
+**12:00-12:45** [Getting Closure](closure)
   - Closures
   - Currying
   - FP & OOP: BFFs
 
-**13:45-14:00** FOOP demo & discussion
+**12:45-13:00** FOOP demo & discussion
 
   _And now, a word from our sponsors:_ The Lambda Calculus
 
-**14:00-15:00** Lunch
+**13:00-14:00** Lunch
 
-**15:00-15:30** [It's functions all the way down](composition)
+**14:00-14:45** [It's functions all the way down](composition)
   - Function composition
   - Data flow
   - Pipelining
 
-**15:30-16:00** [Immutability and you](immutability)
+**14:45-15:30** [Immutability and you](immutability)
   - Time, state, and (in)sanity, revisited
   - Copying vs. Mutating
   - The pitfalls of immutability
 
   _And now, a word from our sponsors:_ Persistent Data Structures
 
-**16:00-16:30** Recap & takeaways (discussion)
+**15:30-16:00** Recap & takeaways (discussion)
   - Review: Thinking functionally
   - When is FP the right choice?
   - Libraries & languages to try
 
-**16:30** End
+**16:00** End
 
 
 ## References & Further Reading
