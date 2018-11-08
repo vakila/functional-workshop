@@ -67,36 +67,37 @@ If the workshop is moving too slowly for you or you're already familiar with som
   - Pure Functions vs. Side Effects
   - Time, state, and (in)sanity
   - Imperative vs. Declarative programming
+  
+**10:30-10:45** Coffee break
 
-**10:30-11:00** [Staying out of the loop with Recursion](recursion)
+**10:45-11:15** [Staying out of the loop with Recursion](recursion)
   - Iteration vs. Recursion
   - Recursive function basics
   - The problem with the problem with the problem with recursion
 
   _And now, a word from our sponsors:_ Tail Call Optimization
 
-**11:00-11:30** Coffee break
-
 **11:30-12:00** [Flying first-class with higher-order functions](higher-order)
   - Functions as values
   - Filter, Map, Reduce
 
+**12:00-13:00** Lunch
 
-**12:00-12:45** [Getting Closure](closure)
+**13:00-13:45** [Getting Closure](closure)
   - Closures
   - Currying
   - FP & OOP: BFFs
 
-**12:45-13:00** FOOP demo & discussion
-
   _And now, a word from our sponsors:_ The Lambda Calculus
 
-**13:00-14:00** Lunch
+**13:45-14:00** FOOP demo & discussion
 
-**14:00-14:45** [It's functions all the way down](composition)
+**14:00-14:30** [It's functions all the way down](composition)
   - Function composition
   - Data flow
   - Pipelining
+
+**14:30-14:45** Coffee break
 
 **14:45-15:30** [Immutability and you](immutability)
   - Time, state, and (in)sanity, revisited
