@@ -50,7 +50,7 @@ If you are struggling to wrap your head around a functional concept, that means 
 - Read up on the topic with the resources listed below. You might find an explanation or example that makes it click for you.
 - Ask the facilitator for additional exercises you can do to practice working with the concept
 
-### What should I do if I get bored?
+## What should I do if I get bored?
 
 If the workshop is moving too slowly for you or you're already familiar with some concept(s) we're working on, no worries! Take your learning into your own hands:
 

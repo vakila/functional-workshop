@@ -10,7 +10,7 @@ A recursive function has two parts:
 ## Exercises
 
 ### Iteration vs. recursion
-  - [ ] Implement both iterative and recursive versions of functions in to compute the factorial of a given number (`factorial.js`) and the Nth number in the Fibonacci sequence (`fibonacci.js`)
+  - [ ] Implement both iterative and recursive versions of functions in to compute the [factorial](https://en.wikipedia.org/wiki/Factorial) of a given number (`factorial.js`) and the Nth number in the [Fibonacci sequence](https://en.wikipedia.org/wiki/Fibonacci_number) (`fibonacci.js`)
   - [ ] Compare your implementations with those of your partner/group
   - [ ] Discuss with your partner/group: Which version did you find easier to write/read? Why?
   - [ ] Return to your iterative and recursive implementations in `factorial.js` or `fibonacci.js`, and try running both functions with higher and higher input numbers. When does performance become an issue for the recursive implementations?

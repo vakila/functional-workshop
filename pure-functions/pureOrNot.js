@@ -6,7 +6,7 @@
 
 const getDate = () => new Date().toDateString();
 
-const getWorkshopDate = () => new Date(2018, 7, 9).toDateString();
+const getWorkshopDate = () => new Date(2018, 3, 28).toDateString();
 
 
 

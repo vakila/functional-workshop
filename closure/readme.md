@@ -19,7 +19,7 @@ In fact, we can even take advantage of closure to write functional code that emu
   - [ ] Fill in the `curriedQuote` function in `grumpyQuotesCurried.js` to create reusable, single-argument functions that save us from having to repeat ourselves so much.
   - [ ] Run `node grumpyQuotesCurried.js` to verify that the output is the same as before.
 
-### Functional Object-Oriented Programming - yes, it's (kind of) a thing!
+### [challenge] Functional Object-Oriented Programming - yes, it's (kind of) a thing!
   - The `functionalShapes.js` module contains functional code that emulates an object-oriented approach to working with related geometric shapes (rectangles and squares).
     - [ ] Read the tests in `functionalShapes.test.js` to get a sense for how a programmer might manipulate these "fobjects". Run the tests (`node functionalShapes.test.js`) - they should be failing.
     - [ ] Work through the `TODO`s in `functionalShapes.js` to get the tests to pass.
