@@ -129,6 +129,7 @@ If the workshop is moving too slowly for you or you're already familiar with som
 - James Hague
   - [Back to the Basics of Functional Programming](https://prog21.dadgum.com/18.html)
   - [Purely Functional Retrogames](https://prog21.dadgum.com/23.html)
+- Eric Normand, [LispCast](https://lispcast.com/)
 
 ### Closures & Currying
 - Scott Sauyet
@@ -143,6 +144,7 @@ If the workshop is moving too slowly for you or you're already familiar with som
 - D. Nolen, “Immutability, interactivity & JS”, [FutureJS '14](https://youtu.be/mS264h8KGwk)
 - L. Byron, “Immutable Data & React”, [React.js Conf '15](https://youtu.be/I7IdS-PbEgI)
 - A. Vakil, "Immutable data structures for functional JS", [JSConf EU '17](https://youtu.be/Wo0qiGPSV-s)
+- J.N. L'orange, [Understanding Clojure's Persistent Data Structures](https://hypirion.com/musings/understanding-persistent-vector-pt-1)
 
 ### Messaging & OOP
 - Alan Kay:
