@@ -10,7 +10,7 @@ With immutable data, when we need to update something we can create a new, sligh
 ## Exercises
 
 
-### Living without mutation (`noMutation.js`)
+### Living without mutation (`noMutators.js`)
   - [ ] Run the tests in `noMutators.test.js` with the command `node noMutators.test.js` - tests should be failing
   - [ ] Get the tests to pass by filling in the functions to create replacements for some commonly-used array mutations
   - [ ] [challenge] Which other mutating array methods/operations do you use frequently? Write non-mutating functions to replace them, and the corresponding tests
