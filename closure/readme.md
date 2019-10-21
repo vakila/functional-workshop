@@ -4,7 +4,7 @@ When a function is defined within another function, the inner function can remem
 
 To make functions more modular and easier to reuse, we can use techniques like currying, which lets us take advantage of closure to turn a function with any number of arguments into a series of single-argument functions, such that we can provide only some of the input arguments and get a "partially applied" function.
 
-In fact, we can even take advantage of closure to write functional code that emulates object-oriented programming. It might sound strange, but with closures we can take advantage of closure to create functions that "feel" like objects, since they remember the "properties" of the scope in which they were defined.
+In fact, we can even take advantage of closure to write functional code that emulates object-oriented programming. It might sound strange, but with closures we can create functions that "feel" like objects, since they remember the "properties" of the scope in which they were defined.
 
 ## Exercises
 
