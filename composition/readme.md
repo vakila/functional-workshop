@@ -7,7 +7,7 @@ In functional programming we construct programs entirely out of modular pure fun
 ### Pipelining (`pipeline.js`)
   - [ ] Run the tests in `pipeline.test.js` with the command `node pipeline.test.js` - tests should be failing
   - [ ] Get the tests to pass by implementing the `pipeline` function, which takes as arguments any number of single-argument functions and returns a single function representing their composition, i.e. a function that passes the input value through a "pipeline" of the functions.
-    - [ ] [challenge] Implement the `pipeline` function in one line, using the `reduce` function you implemented in `no-loops/filterMapReduce.js`
+    - [ ] [challenge] Implement the `pipeline` function in one line, using the `reduce` function you implemented in `higher-order/filterMapReduce.js`
   - [ ] Compare your implementation(s) with those of your partner/group
 
 ### The case for composition (`snakeCharmer.js`)
